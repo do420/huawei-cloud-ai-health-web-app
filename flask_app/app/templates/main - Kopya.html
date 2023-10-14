@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+
+
+<link rel="stylesheet" href="../static/project-files/all.min.css">
+<link rel="stylesheet" href="../static/project-files/line.css">
+<meta name="theme-color" content="#000000">
+<meta name="description" content="Yapay Zeka Tabanlı Hastalık Teşhisi Web Uygulaması">
+<link rel="stylesheet" href="../static/project-files/all.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="../static/project-files/all.min.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="../static/styles/styles.css">
+<style>
+    /* Custom styles for the upload section */
+    .upload-section {
+      background-color: #333; /* Dark background color */
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    .upload-section label {
+      color: #fff; /* Light text color */
+    }
+
+    .upload-section input[type="file"] {
+      width: 100%; /* Make the file input full-width */
+      margin-top: 10px;
+    }
+
+    .upload-section button {
+      margin-top: 10px;
+    }
+
+</style>
+<title>Project name here</title>
+
+
+<style type="text/css"></style><</head>
+<body data-new-gr-c-s-check-loaded="14.1052.0" data-gr-ext-installed="">
+
+<nav>
+    <div class="logo">
+
+        <a href="../main">
+            Pyckle Rick
+        </a>
+
+    </div>
+    <input type="checkbox" id="click">
+    <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+    </label>
+
+</nav>
+
+
+<div class="background-index">
+    <br><br>
+    <h1 class="myproject3">Erken teşhis hayat kurtarır!</h1>
+    <br>
+
+
+    <div id="flip">
+        <div>
+            <div>Pneumonia Virüsü</div>
+        </div>
+        <div>
+            <div>COV-Sars 2 (Covid-2) Virüsü</div>
+        </div>
+        <div>
+            <div>Beyin Tümörü</div>
+        </div>
+    </div>
+    <br>
+    <h1 class="myproject2">Hastalıkları saniyeler içinde teşhis etmek için yapay zekanın gücünü kullanın.</h1>
+
+    <p class="price">Sonuçlarınızı anında öğrenmek için röntgen, tomografi vb. taramalarınızı sistemimize yükleyin!</p>
+
+    <br><br>
+
+
+    <br><br>
+    <div class="textboxes">
+        <div class="textboxcontainer1">
+            <div class="textbox"><p>Tamamen Yapay Zeka</p></div>
+            <div class="textbox"><p>Yüksek Doğruluk Oranı</p></div>
+        </div>
+        <div class="textboxcontainer2">
+            <div class="textbox"><p>Project element.</p></div>
+            <div class="textbox"><p>Project element</p></div>
+        </div>
+    </div>
+
+</div>
+</div>
+<br><br>
+<section id="newline">
+    <section id="shop">
+        <br>
+        <h1>Hastalık Teşhis Aracı</h1>
+
+        <p class="ppp">Medikal görüntünüzü aşağıdaki alanı kullanabilirsiniz.</p>
+        <br><br>
+
+
+
+
+            <div class="containerZ mt-4">
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <img src="image1.jpg" class="card-img-top" alt="Image 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Pneumonia Virüsü (Zatürre) için Akciğer Taraması</h5>
+                                <div class="upload-section">
+                                    <form action="predict" method="post" enctype="multipart/form-data">
+                                        <label for="file" class="form-label card-title">Tarama Yükle:</label>
+                                        <input type="file" class="form-control"  id="file"
+                                               name="file" accept="image/*">
+                                        <button type="submit" class="btn btn-primary mt-2">Yükle</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <img src="image1.jpg" class="card-img-top" alt="Image 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Card 1</h5>
+                                <div class="upload-section">
+                                    <form action="predict" method="post" enctype="multipart/form-data">
+                                        <label for="file" class="form-label card-title">Tarama Yükle:</label>
+                                        <input type="file" class="form-control"  id="file"
+                                               name="file" accept="image/*">
+                                        <button type="submit" class="btn btn-primary mt-2">Yükle</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <img src="image1.jpg" class="card-img-top" alt="Image 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Card 1</h5>
+                                <div class="upload-section">
+                                    <form action="predict" method="post" enctype="multipart/form-data">
+                                        <label for="file" class="form-label card-title">Tarama Yükle:</label>
+                                        <input type="file" class="form-control"  id="file"
+                                               name="file" accept="image/*">
+                                        <button type="submit" class="btn btn-primary mt-2">Yükle</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <img src="image1.jpg" class="card-img-top" alt="Image 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Card 1</h5>
+                                <div class="upload-section">
+                                    <form action="predict" method="post" enctype="multipart/form-data">
+                                        <label for="file" class="form-label card-title">Tarama Yükle:</label>
+                                        <input type="file" class="form-control"  id="file"
+                                               name="file" accept="image/*">
+                                        <button type="submit" class="btn btn-primary mt-2">Yükle</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <img src="image1.jpg" class="card-img-top" alt="Image 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Card 1</h5>
+                                <div class="upload-section">
+                                    <form action="predict" method="post" enctype="multipart/form-data">
+                                        <label for="file" class="form-label card-title">Tarama Yükle:</label>
+                                        <input type="file" class="form-control"  id="file"
+                                               name="file" accept="image/*">
+                                        <button type="submit" class="btn btn-primary mt-2">Yükle</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <img src="image1.jpg" class="card-img-top" alt="Image 1">
+                            <div class="card-body">
+                                <h5 class="card-title">COV-Sars 2 (Covid-2) için Akciğer Taraması</h5>
+                                <div class="upload-section">
+                                    <form action="predict" method="post" enctype="multipart/form-data">
+                                        <label for="file" class="form-label card-title">Tarama Yükle:</label>
+                                        <input type="file" class="form-control"  id="file"
+                                               name="file" accept="image/*">
+                                        <button type="submit" class="btn btn-primary mt-2">Yükle</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <img src="image1.jpg" class="card-img-top" alt="Image 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Beyin Tümörü için MRI Taraması</h5>
+                                <div class="upload-section">
+                                    <form action="predict" method="post" enctype="multipart/form-data">
+                                        <label for="file" class="form-label card-title">Tarama Yükle:</label>
+                                        <input type="file" class="form-control"  id="file"
+                                               name="file" accept="image/*">
+                                        <button type="submit" class="btn btn-primary mt-2">Yükle</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <img src="image1.jpg" class="card-img-top" alt="Image 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Alzheimer için MRI Taraması</h5>
+                                <div class="upload-section">
+                                    <form action="predict" method="post" enctype="multipart/form-data">
+                                        <label for="file" class="form-label card-title">Tarama Yükle:</label>
+                                        <input type="file" class="form-control"  id="file"
+                                               name="file" accept="image/*">
+                                        <button type="submit" class="btn btn-primary mt-2">Yükle</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <img src="image1.jpg" class="card-img-top" alt="Image 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Meme Kanseri için Ultrason Taraması</h5>
+                                <div class="upload-section">
+                                    <form action="predict" method="post" enctype="multipart/form-data">
+                                        <label for="file" class="form-label card-title">Tarama Yükle:</label>
+                                        <input type="file" class="form-control"  id="file"
+                                               name="file" accept="image/*">
+                                        <button type="submit" class="btn btn-primary mt-2">Yükle</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                     <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <img src="image1.jpg" class="card-img-top" alt="Image 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Kan Hücresi Saptaması Taraması</h5>
+                                <div class="upload-section">
+                                    <form action="predict" method="post" enctype="multipart/form-data">
+                                        <label for="file" class="form-label card-title">Tarama Yükle:</label>
+                                        <input type="file" class="form-control"  id="file"
+                                               name="file" accept="image/*">
+                                        <button type="submit" class="btn btn-primary mt-2">Yükle</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+            <div class="containerZ mt-4">
+                <div class="row">
+
+                </div>
+            </div>
+
+
+
+            <div class="containerZ mt-4">
+                <div class="row">
+
+
+                </div>
+            </div>
+
+
+
+            <div class="containerZ mt-4">
+                <div class="row">
+
+
+                </div>
+            </div>
+
+
+            <div class="containerZ mt-4">
+                <div class="row">
+
+                </div>
+            </div>
+
+
+            <div class="containerZ mt-4">
+                <div class="row">
+
+
+                </div>
+            </div>
+
+
+
+        <br><br><br>
+        <a class="a-line" href="../main.html">Pyckle Rick</a>
+        <br><br>
+    </section>
+    <h3 class="promo">Zamandan tasarruf edin ve hayat kurtarın. Saniyeler içinde yapay zeka size yüksek doğrulukla erken tanı koysun.</h3>
+
+
+    <br>
+
+
+</section>
+<div class="footer">
+    <br>
+    <h1>&#10084;</h1>
+    <br>
+    <p>Huawei Ar-Ge Kodlama Maratonu 2023 - Sevgiyle yapıldı.</p>
+    <a class="a-line" href="../main.html">Pyckle Rick</a>
+    <br><br>
+</div>
+
+
+</html>

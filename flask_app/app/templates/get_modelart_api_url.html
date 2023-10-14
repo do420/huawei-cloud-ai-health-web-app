@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>pickle web app</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css')}}">
+</head>
+<img src="https://productimages.hepsiburada.net/s/26/375-500/10164700872754.jpg">
+<br>
+<form action="get_it" method="post">
+
+    <br>
+    {% for message in get_flashed_messages()%}
+
+        <p>{{message}}</p>
+    {% endfor %}
+
+    <br>
+    <input type="text" name="scan_type" placeholder="image type ex.: kidney, alzheimer scan">
+    <input type="text" name="name_input" placeholder="new api url">
+    <br>
+    <br>
+    <input type="password" name="password_input" placeholder="your password">
+    <br>
+    <input type="submit" value="Send Password" id="greet">
+
+</form>
+
+</html>

@@ -1,0 +1,10 @@
+{
+    "urls": [
+        {
+            "kidney": "'https://f7bcf3d99ed24c4cbb2b30f352011bc6.apig.ap-southeast-3.huaweicloudapis.com/v1/infers/f21d0fcb-2a99-4fff-9f53-5dbab8272e79'"
+        },
+        {
+            "alzheimer scan": "'https://f7bcf3d99ed24c4cbb2b30f352011bc6.apig.ap-southeast-3.huaweicloudapis.com/v1/infers/f21d0fcb-2a99-4fff-9f53-5dbab8272e79'"
+        }
+    ]
+}
